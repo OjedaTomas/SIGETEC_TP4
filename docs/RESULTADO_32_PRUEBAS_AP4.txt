@@ -1,0 +1,36 @@
+OK - Constructor y atributos encapsulados de Cliente
+OK - No acepta clientes sin nombre
+OK - No acepta clientes sin tel?fono
+OK - Constructor de T?cnico
+OK - Herencia TicketCctv
+OK - Herencia TicketSoporteIt
+OK - Herencia TicketGeneral
+OK - Polimorfismo CCTV
+OK - Polimorfismo Soporte IT
+OK - Polimorfismo para alarmas
+OK - No acepta tickets sin descripci?n
+OK - No acepta intervenci?n sin tarea
+OK - Constructor de Intervenci?n
+OK - Algoritmo de ordenaci?n por prioridad
+OK - Algoritmo de b?squeda por ID
+OK - Resumen del ticket muestra datos correctos
+
+PRUEBAS APROBADAS: 16
+OK - ArrayList almacena cuatro objetos
+OK - Contador en arreglo para ALTA
+OK - Contador en arreglo para MEDIA
+OK - Contador en arreglo para BAJA
+OK - El resumen conserva el total
+OK - Soporta lista vac?a
+OK - Valida lista nula
+OK - El reporte comienza sin crear
+OK - Manejo de excepci?n CSV inexistente
+OK - Exporta y devuelve ruta
+OK - Lee cabecera y cuatro registros
+OK - CSV con encabezados
+OK - Registro escrito correctamente
+OK - Contenido persistido y recuperable
+OK - Segunda exportaci?n reemplaza la primera
+OK - Polimorfismo sigue disponible
+
+PRUEBAS AP4 APROBADAS: 16

@@ -1,0 +1,18 @@
+digraph arquitectura {
+    graph [rankdir=TB, bgcolor="transparent", nodesep=0.36, ranksep=0.5, pad=0.2];
+    node [shape=box, style="rounded,filled", color="#257852", fillcolor="#e6f3eb", fontname="Arial", fontsize=13, penwidth=1.5];
+    edge [color="#447a65", arrowsize=0.8, penwidth=1.3];
+    U [label="Usuario\nMenú de consola (Main.java)", fillcolor="#d0ede0"];
+    S [label="Lógica de negocio\nServicioSigetec.java"];
+    R [label="Patrón REPOSITORY\nRepositorio.java + JDBC"];
+    D [label="Persistencia principal\nMySQL / 7 tablas", shape=cylinder, fillcolor="#c6e6d1"];
+    A [label="AnalizadorPrioridades\nArreglo int[] + ArrayList<Ticket>"];
+    F [label="AlmacenamientoReporte (interfaz)\nArchivoReporteCsv.java"];
+    C [label="Archivo local\nexportaciones/reporte_tickets.csv", fillcolor="#fff3dd"];
+    U -> S;
+    S -> R [label="operaciones CRUD", fontsize=10];
+    R -> D;
+    S -> A;
+    S -> F;
+    F -> C;
+}

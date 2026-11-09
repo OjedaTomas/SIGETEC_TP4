@@ -1,0 +1,17 @@
+digraph clases {
+  graph [rankdir=LR, bgcolor="transparent", pad=0.15, nodesep=0.5];
+  node [shape=box, style="rounded,filled", fillcolor="#edf7f1", color="#2b8a5a", fontname="Arial", fontsize=11];
+  edge [color="#447a65", arrowsize=0.8];
+  Ticket [label="Ticket (abstracta)\ngetPrioridad() / getTipo() / getId()"];
+  Analizador [label="AnalizadorPrioridades\nresumir(List de Ticket)"];
+  Servicio [label="ServicioSigetec\nresumenPrioridades()\nexportarCsv() / leerCsv()"];
+  Repo [label="Repositorio\nlistarTickets() / buscarTicket()"];
+  Interface [label="Interfaz AlmacenamientoReporte\nguardar() / leer()"];
+  Archivo [label="ArchivoReporteCsv\nguardar() / leer()"];
+  Servicio -> Repo [label="consulta"];
+  Servicio -> Analizador [label="usa"];
+  Servicio -> Interface [label="usa"];
+  Archivo -> Interface [arrowhead=empty, style=dashed, label="implementa"];
+  Analizador -> Ticket [style=dashed, label="analiza"];
+  Archivo -> Ticket [style=dashed, label="exporta"];
+}

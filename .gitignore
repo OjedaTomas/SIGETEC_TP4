@@ -1,0 +1,27 @@
+# Credenciales de MySQL
+config/sigetec.properties
+
+# Archivos generados por Maven
+target/
+
+# Configuraciones locales
+nbproject/private/
+.idea/
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+# Informes de entregas anteriores
+docs/INFORME_TP3_SIGETEC.pdf
+docs/INFORME_TP3_SIGETEC.docx
+# Diagramas anteriores
+diagramas/ARQUITECTURA_SIGETEC.*
+diagramas/CLASES_POO_SIGETEC.*
+
+# Evidencias del TP3
+evidencias/AP3_*.png
+# Guiones y archivos de presentacion
+docs/GUION_VIDEO_AP4_3_MINUTOS.md
+docs/*VIDEO*
+docs/*GUION*
